@@ -24,6 +24,7 @@ $ act --secret-file secretfile -s MAVEN_GPG_PRIVATE_KEY="$(< gpg.pem)
 ## 注意事項
 actのランナーがnode:buster-slimで、Pythonのインストール部分で落ちていた。  
 ホームディレクトリに`.actrc`を作成して、使用するコンテナを指定する。
+使用するコンテナは、actの実行に特化してそうな[catthehacker](https://hub.docker.com/r/catthehacker/ubuntu)のコンテナを使用する。
 ```
 -P ubuntu-latest=catthehacker/ubuntu:act-latest
 ```
