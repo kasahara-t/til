@@ -5,6 +5,7 @@
 
 ## インストール
 ### asdfでのインストール
+※バージョンは2024/04/21時点の情報です。
 ```bash
 $ asdf plugin add act
 $ asdf plugin list all act
