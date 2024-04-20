@@ -3,13 +3,13 @@ name: Update README
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - '**/*.md'
       - '!README.md'
   pull_request:
     branches:
-      - main
+      - master
     paths:
       - '**/*.md'
       - '!README.md'
