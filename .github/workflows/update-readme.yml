@@ -37,4 +37,4 @@ jobs:
           git config --global user.name "${{ secrets.GIT_USER_NAME }}"
           git add README.md
           git diff --staged --quiet || git commit -m "Update README.md"
-          cat README.md
+          git push
