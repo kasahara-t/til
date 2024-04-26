@@ -23,19 +23,19 @@
 ## 見出し
 ### act
 
-- [Act Usage](act/act-usage.md)
+- [actを使ってGithub Actionsをローカル環境で検証する](act/actを使ってGithub Actionsをローカル環境で検証する.md)
 
 ### git
 
-- [Git Cz](git/git-cz.md)
+- [git-czの導入](git/git-czの導入.md)
 
 ### github-actions
 
-- [Fix Git Push 403 Error](github-actions/fix-git-push-403-error.md)
+- [Github Actionsのフロー内でgit pushをするときに、403エラーで落ちる](github-actions/Github Actionsのフロー内でgit pushをするときに、403エラーで落ちる.md)
 
 ### wsl
 
-- [Wl Clipboardのインストール](wsl/wl-clipboardのインストール.md)
+- [wl-clipboardのインストール](wsl/wl-clipboardのインストール.md)
 
 
 
