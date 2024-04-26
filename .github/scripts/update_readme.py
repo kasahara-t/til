@@ -38,9 +38,9 @@ def collect_files():
                     yield os.path.relpath(os.path.join(root, file), root_dir)
 
 def format_title(filename):
-    # ファイル名から拡張子を削除し、ケバブケースをタイトルに変換
+    # ファイル名から拡張子を削除
     name_without_ext = os.path.splitext(filename)[0]
-    return ' '.join(word.capitalize() for word in name_without_ext.split('-'))
+    return name_without_ext
 
 def update_readme():
     links = {}
