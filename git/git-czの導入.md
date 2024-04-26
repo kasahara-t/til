@@ -1,3 +1,5 @@
+# git-czの導入
+
 [git-cz](https://github.com/streamich/git-cz)をインストールして、環境やエディタごとに異なっていたcommitizenの設定を統一できる
 
 ## 前提
