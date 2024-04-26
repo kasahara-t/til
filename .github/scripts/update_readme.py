@@ -1,4 +1,5 @@
 import os
+from urllib.parse import quote
 
 # README.mdのテンプレート部分
 README_TEMPLATE = """
@@ -28,6 +29,7 @@ README_TEMPLATE = """
 
 """
 
+
 def collect_files():
     root_dir = os.path.abspath('.')
     for root, dirs, files in os.walk(root_dir):
@@ -37,10 +39,12 @@ def collect_files():
                 if file.endswith('.md') and not file.startswith('.'):
                     yield os.path.relpath(os.path.join(root, file), root_dir)
 
+
 def format_title(filename):
     # ファイル名から拡張子を削除
     name_without_ext = os.path.splitext(filename)[0]
     return name_without_ext
+
 
 def update_readme():
     links = {}
@@ -49,7 +53,8 @@ def update_readme():
         if dir_name not in links:
             links[dir_name] = []
         title = format_title(os.path.basename(md_path))
-        links[dir_name].append(f"- [{title}]({md_path})")
+        url_encoded_md_path = quote(md_path)
+        links[dir_name].append(f"- [{title}]({url_encoded_md_path})")
 
     links_section = ""
     for dir_name, md_links in sorted(links.items()):
@@ -61,6 +66,7 @@ def update_readme():
     # ファイルを書き込む
     with open('README.md', 'w', encoding='utf-8') as file:
         file.write(full_readme)
+
 
 if __name__ == "__main__":
     update_readme()
