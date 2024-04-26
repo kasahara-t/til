@@ -25,6 +25,10 @@
 
 - [Act Usage](act/act-usage.md)
 
+### git
+
+- [Git Cz](git/git-cz.md)
+
 ### github-actions
 
 - [Fix Git Push 403 Error](github-actions/fix-git-push-403-error.md)
