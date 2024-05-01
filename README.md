@@ -39,6 +39,7 @@
 
 ### wsl
 
+- [以前のバージョンのIMEを使うと日本語入力で落ちる](wsl/%E4%BB%A5%E5%89%8D%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AEIME%E3%82%92%E4%BD%BF%E3%81%86%E3%81%A8%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%85%A5%E5%8A%9B%E3%81%A7%E8%90%BD%E3%81%A1%E3%82%8B.md)
 - [wl-clipboardのインストール](wsl/wl-clipboard%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB.md)
 
 
