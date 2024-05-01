@@ -37,6 +37,10 @@
 
 - [Github Actionsのフロー内でgit pushをするときに、403エラーで落ちる](github-actions/Github%20Actions%E3%81%AE%E3%83%95%E3%83%AD%E3%83%BC%E5%86%85%E3%81%A7git%20push%E3%82%92%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E3%80%81403%E3%82%A8%E3%83%A9%E3%83%BC%E3%81%A7%E8%90%BD%E3%81%A1%E3%82%8B.md)
 
+### philosophy
+
+- [社会に属するエンジニアとして](philosophy/%E7%A4%BE%E4%BC%9A%E3%81%AB%E5%B1%9E%E3%81%99%E3%82%8B%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%A8%E3%81%97%E3%81%A6.md)
+
 ### rdb
 
 - [個人的命名規則](rdb/%E5%80%8B%E4%BA%BA%E7%9A%84%E5%91%BD%E5%90%8D%E8%A6%8F%E5%89%87.md)
