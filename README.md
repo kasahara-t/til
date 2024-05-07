@@ -43,7 +43,7 @@
 
 ### philosophy
 
-- [社会に属するエンジニアとして](philosophy/%E7%A4%BE%E4%BC%9A%E3%81%AB%E5%B1%9E%E3%81%99%E3%82%8B%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%A8%E3%81%97%E3%81%A6.md)
+- [技術選定の基準](philosophy/%E6%8A%80%E8%A1%93%E9%81%B8%E5%AE%9A%E3%81%AE%E5%9F%BA%E6%BA%96.md)
 
 ### rdb
 
