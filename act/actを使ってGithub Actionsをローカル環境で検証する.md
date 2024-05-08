@@ -8,7 +8,7 @@
 ※バージョンは2024/04/21時点の情報です。
 ```bash
 $ asdf plugin add act
-$ asdf plugin list all act
+$ asdf list all act
 $ asdf install act 0.2.61
 $ asdf global act 0.2.61
 ```
