@@ -3,12 +3,13 @@
 ```js
 process.stdin.setEncoding("utf8");
 const getLines = async () => {
-	const buffers = [];
-	for await (const chunk of process.stdin) {
-		buffers.push(chunk);
+	const lines = [];
+	for await (const line of process.stdin) {
+		lines.push(line);
 	}
-	return Buffer.concat(buffers).toString().trim().split('\n');
+	return lines
 }
+
 
 getLines().then(lines => {
 	// ここに処理を書く
