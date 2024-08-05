@@ -11,3 +11,7 @@ getLines().then(lines => {
 	// ここに処理を書く
 });
 ```
+
+## 参考
+
+- [Node.jsでの標準入力の書き方をまとめてみた](https://qiita.com/saba_can00/items/02ff28a16a0d312a5259)
